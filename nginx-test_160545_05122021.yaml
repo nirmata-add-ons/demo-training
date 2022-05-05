@@ -27,10 +27,10 @@ metadata:
   annotations: {}
   name: "dolis"
   labels:
-    app.kubernetes.io/name: "nginx-catalog"
+    app.kubernetes.io/name: "nginx-catalog1"
     app.kubernetes.io/component: "deployment.dolis"
 spec:
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 5
   selector:
     matchLabels:
