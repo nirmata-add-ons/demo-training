@@ -22,7 +22,7 @@ spec:
 
 ---
 kind: "Deployment"
-apiVersion: "appss/v1"
+apiVersion: "apps/v1"
 metadata:
   annotations: {}
   name: "dolis"
